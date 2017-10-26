@@ -1,13 +1,14 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 h1, h2 {
-  text-align:center;
-      margin: 1.67em 0;
+  text-align: center;
+  margin: 1.67em 0;
 }
 
 input {
@@ -15,21 +16,21 @@ input {
 }
 
 .product-line {
-  display:flex;
-      justify-content: space-around;
-          padding: 0 10%;
-              align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+  align-items: center;
 }
 
-.products{
+.products {
   display: table;
-width: 100%;
-padding: 0 0%;
-text-align: center;
+  width: 100%;
+  padding: 0 0%;
+  text-align: center;
 }
 
 .product-name {
-    width: 20%;
+  width: 20%;
 }
 
 .btn {
@@ -55,45 +56,45 @@ text-align: center;
 }
 
 .success-button {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
-    width:10%;
+  color: #fff;
+  background-color: #CF000F;
+  border-color: #CF000F;
+  width: 10%;
 }
 
 .quantity {
   margin: 0 5px;
-      width: 30%;
+  width: 30%;
 }
 
 .calc-section {
-  display:flex;
+  display: flex;
   justify-content: space-around;
-align-items: center;
-margin: 6% 0;
+  align-items: center;
+  margin: 6% 0;
 }
 
 .price {
   display: flex;
   align-items: center;
   justify-content: center;
-      width: 10%;
+  width: 10%;
 }
 
 .newProduct {
-    padding: 0.5% 10%;
+  padding: 0.5% 10%;
 }
 
 .new-item-info {
-      width: 85%;
+  width: 85%;
 }
 
 #hidden {
-  display:none;
+  display: none;
 }
